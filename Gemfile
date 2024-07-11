@@ -2,6 +2,8 @@
 
 source "https://rubygems.org"
 
+gem "ffi", force_ruby_platform: true
+
 gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
 
 group :test do
