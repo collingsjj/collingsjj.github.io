@@ -2,11 +2,11 @@
 
 - type: github
   icon: "fab fa-github"
-  url:  'collingsjj.github.io'
+  url:  'https://collingsjj.github.io'
 
- - type: linkedin
-   icon: 'fab fa-linkedin'
-   url:  'https://www.linkedin.com/in/jacobjcollings/'
+- type: linkedin
+  icon: 'fab fa-linkedin'
+  url:  'https://www.linkedin.com/in/jacobjcollings/'
 
 - type: twitter
   icon: "fa-brands fa-x-twitter"
@@ -19,6 +19,7 @@
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
