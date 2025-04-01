@@ -4,6 +4,9 @@ title: Setting Up Github Pages
 date: 2025-03-26 15:39 -0600
 categories: [Tutorials, GitHub]
 tags: [git]
+
+description: Documentation! I learn how to setup Jekyll, build a static theme for my GitHub Pages, and automate deployment.
+
 ---
 
 ## It's Time To D-D-D-D-Document!
