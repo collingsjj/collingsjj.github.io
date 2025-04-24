@@ -11,11 +11,11 @@ tags:
 - CTF
 - kali-linux
 - red-team
-description: I document going through the beginner HTB box "Nibbles" as part of the
+description: I document going through the beginner HTB Box "Nibbles" as part of the
   Penetration Tester Job Path on HTB Academy.
 date: 2025-04-24 14:09 -0600
 ---
-Nibbles is the first box that you attack in HTB's Penetration Tester Job Path. It's a
+Nibbles[^nibbles] is the first box that you attack in HTB's Penetration Tester Job Path. It's a
  super easy, beginner-friendly box that helps get a new pentester's feet wet. While it
  was fairly straightforward, it was a fun opportunity to perform some hacks without
  the use of metasploit.
@@ -484,7 +484,7 @@ Not a lot, but what little there is sure does look interesting. Checking the `us
 
 ```terminal
 nibbler@Nibbles:/home/nibbler$ cat user.txt
-79c03865431abf47b90ef24b9695e148
+<flag-value>
 ```
 
 Excellent! Our first flag is in the bag. It doesn't provide us with any additional insight
@@ -704,7 +704,7 @@ Another success! All that's left to do is grab the `root.txt` flag:
 
 ```terminal
 # cat root.txt
-de5e5d6619862a8aa5b9b212314e0cdd
+<flag-value>
 ```
 
 Flag captured! That's it for this machine, although if this were a real customer, we'd proceed
@@ -729,6 +729,10 @@ Overall, while mostly simple and straightforward, this was a great experience.
 <br/>
 
 ---
+[^nibbles]: Nibbles is a retired machine, which means it has publicly available walkthroughs
+	 available on HTB, YouTube, and other sites. The inblusion of a highly detailed process
+	 here is only because of this. Active HTB Boxes are not publicly disclosed and thus
+	 will not feature such walkthroughts here until they are retired.
 [^wsl2]: Open a Powershell window (running as admin) and create a port proxy
 	and firewall rule as follows:
 	```powershell
