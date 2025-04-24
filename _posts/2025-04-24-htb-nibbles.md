@@ -730,9 +730,11 @@ Overall, while mostly simple and straightforward, this was a great experience.
 
 ---
 [^nibbles]: Nibbles is a retired machine, which means it has publicly available walkthroughs
-	 available on HTB, YouTube, and other sites. The inblusion of a highly detailed process
-	 here is only because of this. Active HTB Boxes are not publicly disclosed and thus
-	 will not feature such walkthroughts here until they are retired.
+	 available on HTB, [YouTube](https://youtu.be/s_0GcRGv6Ds?si=sFXOS9aYaz3XIwmJ),
+	 and other sites. The inclusion of a highly detailed process here is only because of
+	 this. Active HTB Boxes are not publicly disclosed and thus will not feature such
+	 walkthroughts here until they are retired.
+
 [^wsl2]: Open a Powershell window (running as admin) and create a port proxy
 	and firewall rule as follows:
 	```powershell
